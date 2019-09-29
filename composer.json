@@ -1,0 +1,20 @@
+{
+  "name" : "banstola/amazon-mws-fulfillment-outbound-shipment",
+  "description" : "Amazon MWS Fulfillment Outbound Shipment",
+  "license" : "MIT",
+  "autoload": {
+    "psr-4": {
+      "": ["src/FBAOutboundServiceMWS", "src/FBAOutboundServiceMWS/Model"]
+    }
+  },
+  "require" : {
+    "php": ">=5.3",
+    "ext-xml": "*",
+    "ext-curl": "*"
+  },
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "20101001.0.0-dev"
+    }
+  }
+}
